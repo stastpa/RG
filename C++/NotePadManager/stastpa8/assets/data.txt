@@ -1,0 +1,31 @@
+TI
+ PA2.txt
+  Depression
+  Hardcore
+  LVagner
+  Pain
+  Progtest
+  noSleep
+TI
+ PA1.txt
+  Depression
+  Hard
+  LVagner
+  Pain
+  Progtest
+  noSleep
+KAM
+ MA1.txt
+  FinalBoss
+  Kalvoda
+  Mathematica
+  Memes
+  ThereIsSecond?
+MANUAL
+ manual.col
+import
+ import.txt
+  import
+ggg
+ haha.txt
+  red

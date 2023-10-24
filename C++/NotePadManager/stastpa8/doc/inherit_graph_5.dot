@@ -1,0 +1,24 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="CFunctionality",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classCFunctionality.html",tooltip="Class from which are derived other classes, with functionalities."];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="DeleteFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDeleteFile.html",tooltip="Class that represents option to delete file."];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="EditFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classEditFile.html",tooltip="Class that represents option to edit file."];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ExportFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classExportFile.html",tooltip="Class that represents option to export file."];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ImportFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classImportFile.html",tooltip="Class that represents option to import file."];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ListAll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classListAll.html",tooltip="Class that represents option to list all attributes, such as tags, categories..."];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="NewFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classNewFile.html",tooltip="Class that represents option to create new file."];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ReadFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classReadFile.html",tooltip="Class that represents option to read file in 2 formates."];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SearchFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSearchFile.html",tooltip="Class that represents option to search file by some criteria."];
+}

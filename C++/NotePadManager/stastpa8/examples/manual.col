@@ -1,0 +1,15 @@
+This is a manual for custom format. First number on the row defines
+what clolour will the whole line be. First Character on the line
+will not be shown if its: {1,2,3,4,5,6,7,8,*, '\t'}
+	
+		Title
+11. BLACK
+22. RED
+33. GREEN
+44. YELLOW
+55. BLUE
+66. MAGENTA
+77. CYAN
+88. WHITE
+**. BALD
+xx. DEFAULT
